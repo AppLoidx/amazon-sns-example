@@ -71,14 +71,14 @@ curl -X POST http://localhost:8080/api/create/endpoint/myToken
 Then, you can see:
 ```text
 Sending request with token : myToken
-Result : {EndpointArn: arn:aws:sns:us-west-2:614856443116:endpoint/GCM/LifeFeel/3083a565-f2dd-3ee6-8744-9010e6b29442}
+Result : {EndpointArn: arn:aws:sns:us-west-2:614856443116:endpoint/GCM/LifeFeel/3083a565-f1dd-3ee6-8744-9033e6b29442}
 ```
 
 ![](https://i.imgur.com/pS6xJcs.png)
 
 **NOTE**
 
-If send already exists token - you will get an existing endpoint arn. You can try it with repeating request
+If you send, already existing token - you would get an existing endpoint arn. You can try it with repeating a request
 
 
 You can see some exception (WARN) when aws tries to retrieve user metadata from endpoint:
