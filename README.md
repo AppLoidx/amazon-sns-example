@@ -78,7 +78,7 @@ Result : {EndpointArn: arn:aws:sns:us-west-2:614856443116:endpoint/GCM/LifeFeel/
 
 **NOTE**
 
-If send already exists token - you will get an existing endpoint arn. You can try it with repeating request
+If you send, already existing token - you would get an existing endpoint arn. You can try it with repeating a request
 
 
 You can see some exception (WARN) when aws tries to retrieve user metadata from endpoint:
