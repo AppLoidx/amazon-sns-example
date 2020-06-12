@@ -1,0 +1,1 @@
+docker build --build-arg AWS_SKEY=$AWS_SKEY AWS_AKEY=$AWS_AKEY -t amazon-sns-example .
