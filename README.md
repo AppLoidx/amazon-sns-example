@@ -71,7 +71,7 @@ curl -X POST http://localhost:8080/api/create/endpoint/myToken
 Then, you can see:
 ```text
 Sending request with token : myToken
-Result : {EndpointArn: arn:aws:sns:us-west-2:614856443116:endpoint/GCM/LifeFeel/3083a565-f2dd-3ee6-8744-9010e6b29442}
+Result : {EndpointArn: arn:aws:sns:us-west-2:614856443116:endpoint/GCM/LifeFeel/3083a565-f1dd-3ee6-8744-9033e6b29442}
 ```
 
 ![](https://i.imgur.com/pS6xJcs.png)
